@@ -70,16 +70,16 @@
 }
 
 .education__img--logo-alura{
-    background-image: url("./assets/alura.png");
+    background-image: url('../assets/alura.png');
 }
 
 
 .education__img--logo-utn{
-    background-image: url("./assets/utn.png");
+    background-image: url('../assets/utn.png');
 }
 
 .education__img--logo-codo{
-    background-image: url("./assets/codo.png");
+    background-image: url('../assets/codo.png');
 }
 
 
