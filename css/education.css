@@ -70,7 +70,7 @@
 }
 
 .education__img--logo-alura{
-    background-image: url("/assets/alura.svg");
+    background-image: url("/assets/alura.png");
 }
 
 
@@ -79,7 +79,7 @@
 }
 
 .education__img--logo-codo{
-    background-image: url("/assets/codo-codo.svg");
+    background-image: url("/assets/codo.png");
 }
 
 

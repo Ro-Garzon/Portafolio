@@ -8,7 +8,7 @@ document.getElementById("form-sent").addEventListener("click", () => {
         emergent.style.opacity = 0;
         setTimeout(function() {
             mensaje.style.visibility = 'hidden';
-            window.location = 'http://127.0.0.1:5501/index.html#contact';
+            window.location = 'https://ro-garzon.github.io/Portafolio/#contact';
         }, 500);
     }, 3000);
 });
