@@ -1,0 +1,19 @@
+
+<input id="nombre" class="clase2">
+
+if (document.querySelector("#nombre.clase2")) {
+  document.write("Esto solo se ejecuta si el elemento con id 'nombre' tiene la clase 'clase2'")
+} else {
+  document.write = "Se ejecuta si no la tiene"
+}
+
+
+
+var input = document.getElementById("Nombre");
+if (input.classList.contains("clase2")){  
+document.write(input.classList + " " + "<br>" + "<b>Si posee la clase2</b>") } 
+else { document.write(input.classList + "<br>" + "<b>No posee la clase que buscas") };
+
+<input id="Nombre" class="clase1 clase2 clase3" type="text" />
+<br>
+Clases que posee:

@@ -1,0 +1,35 @@
+.about__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__card{
+    background-color: var(--bg-card-light);
+    padding: 60px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+}
+
+
+.about__text{
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.about__line{
+    height: 5px;
+    width: 60%;
+    max-width: 400px;
+    background-image: linear-gradient(45deg, var(--gradient-1));
+}
+
+.about__email{
+    text-decoration: none;
+    color: var(--grey);
+}

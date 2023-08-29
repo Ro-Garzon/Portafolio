@@ -1,0 +1,33 @@
+.footer{
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer__text{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.footer__atribution{
+    color: var(--grey);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .footer-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

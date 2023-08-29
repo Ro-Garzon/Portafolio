@@ -1,0 +1,32 @@
+.btn{
+    letter-spacing: 2px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: var(--grey);
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(45deg, var(--gradient-blue));
+}
+
+.btn--green{
+    background: linear-gradient(45deg, var(--gradient-green));
+}
+
+.btn:hover{
+    background: var(--blue-dark);
+}
+
+
+.btn[disabled]{
+    background: #a5a5a5;
+}
+
+@media screen and (max-width: 768px){
+    .btn{
+        width: 100px;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+}

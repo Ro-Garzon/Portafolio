@@ -1,0 +1,123 @@
+.education{
+    background-color: var(--blue);
+}
+
+.education__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 5%;
+    row-gap: 40px;
+}
+
+.education__card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 280px;
+    border-radius: 3px;
+    background-color: var(--bg-card-light);
+    overflow: hidden;
+}
+
+.education__bg{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.education__bg--color1{
+    background: linear-gradient(45deg, var(--gradient-1));
+}
+
+.education__bg--color2{
+    background: linear-gradient(45deg, var(--gradient-2));
+}
+
+.education__bg--color3{
+    background: linear-gradient(45deg, var(--gradient-3));
+}
+
+.education__bg--color4{
+    background: linear-gradient(45deg, var(--gradient-4));
+}
+
+.education__bg--color5{
+    background: linear-gradient(45deg, var(--gradient-5));
+}
+
+.education__bg--color6{
+    background: linear-gradient(45deg, var(--gradient-6));
+}
+
+
+.education__img{
+    position: relative;
+    height: 80px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+    transition: all 0.3s;
+}
+
+
+.education__card:hover .education__bg{
+    height: 80px;
+}
+
+.education__img--logo-alura{
+    background-image: url("/assets/alura.svg");
+}
+
+
+.education__img--logo-utn{
+    background-image: url("/assets/utn.png");
+}
+
+.education__img--logo-codo{
+    background-image: url("/assets/codo-codo.svg");
+}
+
+
+.education__name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--grey);
+    margin: 10px 15px;
+    line-height: 2rem;
+}
+
+
+
+.education__subtitle{
+    margin: 15px; 
+    line-height: 1.5rem;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .education__box{
+
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .education__card{
+        height: 250px;
+    }
+
+    .education__name{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .education__subtitle{
+        font-size: 0.9rem;
+    }
+
+}

@@ -1,0 +1,43 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    height: 60px;
+    margin: 10px 5%;
+}
+
+.header__title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title__logo{
+    height: 2rem;
+}
+
+.header__bars{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .header__bars{
+        display: block;
+        cursor: pointer;
+    }    
+
+    .header__bars-line{
+        width: 25px;
+        height: 3px;
+        background-color: var(--grey);
+        margin: 4px 0px;
+    }
+}
+

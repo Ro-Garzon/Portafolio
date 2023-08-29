@@ -1,0 +1,20 @@
+
+.hobbies__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    column-gap: 70px;
+    row-gap: 70px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .hobbies__box{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        column-gap: 5%;
+        row-gap: 30px;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+.link-social{
+    width: 35px;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 3px;
+    background: linear-gradient(45deg, var(--gradient-green));
+}
+
+.link-social:hover{
+    background: var(--blue-dark);
+}

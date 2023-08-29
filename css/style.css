@@ -1,0 +1,66 @@
+:root{
+    --blue-dark: #051232;
+    --blue:#071e5a;
+    --grey: #E7E5E5;
+    --warning-color: #fa8484;
+
+    --bg-card-light:#f3f2f623;
+
+    --gradient-green: #639e04, #c6f779;
+    --gradient-blue: #036795, #66cbfa;
+    
+    --gradient-1: #f40a2d, #fa7f91;
+    --gradient-2: #9e06c1, #e37efa;
+    --gradient-3: #f55713, #f8a987;
+    --gradient-4: #03973c, #81f7ae;
+    --gradient-5: #df9202, #f6ca78;
+    --gradient-6: #0257ce, #86b4f5;
+   
+
+    --font-body: 'Open Sans', sans-serif;
+    --font-title: 'Ubuntu', sans-serif;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-body);
+    color: var(--grey);
+    background-color: var(--blue-dark);
+}
+
+.container{
+    padding: 80px 5%;
+}
+
+.title{
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px){
+
+    .title{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
