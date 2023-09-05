@@ -33,3 +33,11 @@
     text-decoration: none;
     color: var(--grey);
 }
+
+@media screen and (max-width: 768px){
+
+    .about__card{
+        padding: 60px 10%;
+    }
+
+}
